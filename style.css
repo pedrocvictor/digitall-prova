@@ -1,1 +1,51 @@
+:root {
+  --branco: #ffff;
+  --preto-principal: #00030c;
+  --cinza-secundario: #c0c0c0;
+  --botão-azul: #167bf7;
+  --fonte-principal: 'inter'
+}
 
+body {
+  font-family: var(--fonte-principal);
+  color: var(--preto-principal);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.container__imagem {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container__botao {
+  background-color: var(--botão-azul);
+  border-radius: 5px;
+  padding: 0.5em;
+  color: var(--branco);
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+.conteudo1{
+  position: relative;
+}
+.conteudo1 a {
+  position: absolute;
+  top: 20px;
+right: 50px;  
+padding: 10px 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: var(--branco);
+  transition: all 0.5s ease;
+}
+ 
